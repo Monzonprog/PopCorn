@@ -7,5 +7,10 @@ class Constantes {
         val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500/"
         val BASE_URL = "https://api.themoviedb.org/3/"
 
+        //URL ITERCEPTOR
+        val URL_PARAM_API_KEY = "api_key"
+        val URL_PARAM_LANGUAGE = "language"
+        val LANGUAGE_SPANISH_API = "es-ES"
+
     }
 }

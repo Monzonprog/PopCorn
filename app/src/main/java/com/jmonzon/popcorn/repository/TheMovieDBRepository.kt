@@ -35,7 +35,7 @@ class TheMovieDBRepository {
                  response: Response<PopularMoviesResponse>
              ) {
                  if(response.isSuccessful){
-                     popularMovies?.value = response.body()?.movies
+                     popularMovies?.value = response.body()?.results
                  }
              }
 
